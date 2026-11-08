@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-oled: #000000;
+  --surface-charcoal: #111111;
+  --hairline: #1F1F1F;
+}
+
+/* Strict OLED Canvas reset - ZERO PURPLE / ZERO NEON */
+html, body {
+  background-color: #000000;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-space-mono), monospace, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for matte dark studio */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 9999px;
+  border: 1px solid #1F1F1F;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3A3A3A;
+}
+
+/* Tabular numbers for Antonio scoreboard numerals */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+

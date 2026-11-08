@@ -1,0 +1,17 @@
+{
+  "name": "SHIP CLUB — Security Auditor & AI README Studio",
+  "short_name": "Ship Club",
+  "description": "Automated GitHub Repository Security Auditor, Architecture Inspector, and AI README.md Studio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

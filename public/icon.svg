@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#000000" />
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="#111111" stroke="#1F1F1F" stroke-width="4" />
+  <circle cx="256" cy="180" r="110" fill="#2A0707" stroke="#6B1414" stroke-width="6" />
+  <path d="M256 100 L320 220 L192 220 Z" fill="#E5E5E5" />
+  <rect x="236" y="220" width="40" height="60" rx="8" fill="#A3E635" />
+  <text x="256" y="380" font-family="monospace" font-size="44" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">SHIP CLUB</text>
+  <text x="256" y="425" font-family="monospace" font-size="20" font-weight="bold" fill="#A3A3A3" text-anchor="middle" letter-spacing="6">SECURITY AUDITOR</text>
+</svg>
+
